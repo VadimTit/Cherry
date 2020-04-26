@@ -1,0 +1,27 @@
+table th, td{
+    text-align: center;
+    padding: 8px 14px;
+}
+table {
+    width: 100%;
+}
+tr:nth-child(1) {
+    background-color: #ff1744;
+    color: #fff;
+}
+td {
+    background-color: #282d33;
+    color: #a5adb8;
+}
+table th:first-child {
+    border-top-left-radius: 5px;
+}
+table th:last-child {
+    border-top-right-radius: 5px;
+}
+.table-footer td:first-child {
+   border-bottom-left-radius: 5px;
+}
+.table-footer td:last-child {
+   border-bottom-right-radius: 5px;
+}

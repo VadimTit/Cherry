@@ -1,0 +1,12 @@
+.card-title {
+    margin: 0;
+}
+.card-aside {
+    margin:0 0 36px 0;
+    width: 210px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.card-headline {
+    margin: 30px 0 10px;
+}

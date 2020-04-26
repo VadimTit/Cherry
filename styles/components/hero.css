@@ -1,0 +1,28 @@
+.hero {
+  background-color: #2c343c;
+  padding: 40px 30px;
+}
+.hero-content {
+  max-width: 484px;
+}
+
+.hero-title {
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  line-height: 14px;
+  color: #c9c7c7;
+  margin: 0;
+}
+.hero-caption {
+  font-size: 18px;
+  color: #fff;
+  margin: 18px 0 9px;
+}
+.hero-description {
+  line-height: 18px;
+  color: #c9c7c7;
+  margin: 0;
+}

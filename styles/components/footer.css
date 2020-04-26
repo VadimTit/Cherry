@@ -1,0 +1,13 @@
+.footer {
+    background-color: #262d34;
+    border-top: 12px solid #ff1744;
+}
+.footer-title {
+    color: #a5adb8;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.footer-phone-number {
+    color: #a5adb8;
+    margin: 10px 0;
+}

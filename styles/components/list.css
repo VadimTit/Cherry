@@ -1,0 +1,70 @@
+.list-title {
+  padding-bottom: 22px;
+  margin: 0;
+}
+.list-primary {
+  padding-left: 0;
+}
+.list-primary > li {
+  list-style: none;
+}
+.list-primary > li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #5c646e;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.list-ordered, .list {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.list-ordered {
+  padding-left: 18px;
+}
+
+.list-description, .list-description-unordered {
+  padding-left: 0;
+}
+.list-description > li, .list-description-unordered li {
+  list-style: none;
+  margin: 10px 0 ;
+  font-size: 14px;
+}
+.list-description > li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #ff1744;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.list-ordered-red > li {
+  list-style: none;
+  margin: 0;
+  font-size: 14px;
+}
+.list-unordered-red > li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #ff1744;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+}
